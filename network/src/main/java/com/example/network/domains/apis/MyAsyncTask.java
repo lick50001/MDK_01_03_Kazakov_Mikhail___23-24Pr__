@@ -25,4 +25,7 @@ public class MyAsyncTask extends AsyncTask<Void, Void, String> {
                 callback.onError(result);
         }
     }
+
+    public MyAsyncTask() {
+    }
 }
