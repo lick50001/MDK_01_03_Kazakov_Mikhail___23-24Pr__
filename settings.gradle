@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Catalog_Kazakov"
 include ':app'
+include ':network'
+include ':UIComponents'

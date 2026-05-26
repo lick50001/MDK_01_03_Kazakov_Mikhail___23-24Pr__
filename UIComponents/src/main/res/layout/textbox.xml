@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TextView -->
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#7E7E9A"
+        android:text="Укажите фамлию"
+        android:fontFamily="@font/roboto"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/tb"
+        />
+
+    <EditText
+        android:id="@+id/tb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tb_text_states"
+        android:hint="Укажите фамилию"
+        android:textColor="#7E7E9A"
+        android:textColorHint="#A0A0A0"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="15dp"
+        android:stateListAnimator="@null"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:cursorVisible="true"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/errorhint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textColor="#F44336"
+        android:text="Ошибка"
+        android:fontFamily="@font/roboto"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/tb"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
