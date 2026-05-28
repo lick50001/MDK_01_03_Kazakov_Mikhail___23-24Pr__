@@ -20,7 +20,7 @@ public class ProductGet extends MyAsyncTask {
     @Override
     protected String doInBackground(Void... voids){
         try {
-            Connection.Response response = Jsoup.connect(Settings.URL + "api/basket/get")
+            Connection.Response response = Jsoup.connect(Settings.URL + "api/product/get")
                     .ignoreContentType(true)
                     .ignoreHttpErrors(true)
                     .method(org.jsoup.Connection.Method.GET)

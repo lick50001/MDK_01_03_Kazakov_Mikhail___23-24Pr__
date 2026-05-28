@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView llCategory;
     LinearLayout llProducts;
     ProgressDialogHelper progressDialogHelper;
-    String token = "TOOOOOOOOOKEEEEEEEEEEEN";
+    String token = "c230be07-14a7-4ebb-baaa-238776a1c843";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
